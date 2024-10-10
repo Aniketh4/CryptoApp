@@ -24,4 +24,4 @@ To set up and run the application locally, follow these steps:
 
 ### 4. Start application with npm start
 
-### 5. Access the API endpoints at localhost://{port} (port given in env, default set to 3000)
+### 5. Access the API endpoints at localhost://{port}/api (port given in env, default set to 3000)
