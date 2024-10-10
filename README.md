@@ -8,7 +8,7 @@ CryptoApp is a robust server-side application designed to monitor key metrics of
 
 ### **Key Features**
 
-- **Automated Background Job**: Seamlessly fetches and stores cryptocurrency data at regular intervals, so you're always up to date.
+- **Automated Background Job**: A **cron job** runs every two hours to seamlessly fetch the latest cryptocurrency data from the CoinGecko API and update the MongoDB database, ensuring that you're always up to date.
   
 - **API Endpoints**:
   - **`/stats`**: Provides the latest data for any specified cryptocurrency.
