@@ -1,29 +1,40 @@
-# CryptoApp
+# **CryptoApp**
 
-# Deployed here: https://crypto-app-theta-blond.vercel.app/
+### [Live Demo](https://crypto-app-theta-blond.vercel.app/)
 
-## Cryptocurrency Data Tracker
+## **Cryptocurrency Data Tracker**
 
-CryptoApp is a server-side application built with Node.js and MongoDB that tracks cryptocurrency prices, market capitalization, and 24-hour changes for Bitcoin, Matic, and Ethereum. The application fetches data from the CoinGecko API every two hours and stores it in a MongoDB database.
+CryptoApp is a robust server-side application designed to monitor key metrics of top cryptocurrencies—Bitcoin, Matic, and Ethereum. Built with **Node.js** and **MongoDB**, it tracks live prices, market capitalization, and 24-hour changes by leveraging the **CoinGecko API**, updating every two hours to ensure accurate and current data.
 
-## Features
+### **Key Features**
 
-- **Background Job**: Automatically fetches and stores cryptocurrency data at specified intervals.
+- **Automated Background Job**: Seamlessly fetches and stores cryptocurrency data at regular intervals, so you're always up to date.
+  
 - **API Endpoints**:
-  - **`/stats`**: Retrieve the latest data for a specified cryptocurrency.
-  - **`/deviation`**: Calculate and return the standard deviation of the price for the last 1000 records.
-- **MongoDB Integration**: Uses Mongoose to interact with a MongoDB database, providing structured data through schemas.
+  - **`/stats`**: Provides the latest data for any specified cryptocurrency.
+  - **`/deviation`**: Calculates and returns the standard deviation of the price over the last 1000 records, offering insights into price volatility.
+  
+- **MongoDB Integration**: Uses **Mongoose** for structured interactions with MongoDB, ensuring efficient data storage and retrieval.
 
-## Getting Started
+### **How to Get Started**
 
-To set up and run the application locally, follow these steps:
+Follow these simple steps to run CryptoApp on your local machine:
 
-### 1. Clone the Repository
+1. **Clone the Repository**:  
+   `git clone <your-repository-url>`
 
-### 2. Run npm install (Install dependencies)
+2. **Install Dependencies**:  
+   Run `npm install` to install all necessary packages.
 
-### 3. Create a .env file and add PORT(PORT), MongoDB URL(MONGO_URI), Coin Gecko api_key(COINGECKO_API_KEY)
+3. **Set Up Environment Variables**:  
+   Create a `.env` file in the root directory with the following variables:
+   - `PORT`: The port where the app will run (default: 3000).
+   - `MONGO_URI`: Your MongoDB connection string.
+   - `COINGECKO_API_KEY`: Your API key for CoinGecko.
 
-### 4. Start application with npm start
+4. **Start the Application**:  
+   Use `npm start` to launch the app.
 
-### 5. Access the API endpoints at localhost://{port}/api (port given in env, default set to 3000)
+5. **Access the API Endpoints**:  
+   Once running, you can interact with the API via `http://localhost:{PORT}/`, where `{PORT}` is the port you defined in your `.env` file.
+
