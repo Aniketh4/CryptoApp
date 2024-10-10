@@ -20,7 +20,7 @@ To set up and run the application locally, follow these steps:
 
 ### 2. Run npm install (Install dependencies)
 
-### 3. Create a .env file and add PORT, MongoDB URL, Coin Gecko api_key
+### 3. Create a .env file and add PORT(PORT), MongoDB URL(MONGO_URI), Coin Gecko api_key(COINGECKO_API_KEY)
 
 ### 4. Start application with npm start
 
