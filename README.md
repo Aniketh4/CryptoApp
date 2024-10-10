@@ -1,6 +1,7 @@
 # **CryptoApp**
 
 ### [Live Demo](https://crypto-app-theta-blond.vercel.app/)
+### [Data Fetch Example](https://crypto-app-theta-blond.vercel.app/stats?coin=bitcoin)
 
 ## **Cryptocurrency Data Tracker**
 
