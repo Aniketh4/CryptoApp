@@ -1,5 +1,7 @@
 # CryptoApp
 
+# Deployed here: https://crypto-app-theta-blond.vercel.app/
+
 ## Cryptocurrency Data Tracker
 
 CryptoApp is a server-side application built with Node.js and MongoDB that tracks cryptocurrency prices, market capitalization, and 24-hour changes for Bitcoin, Matic, and Ethereum. The application fetches data from the CoinGecko API every two hours and stores it in a MongoDB database.
