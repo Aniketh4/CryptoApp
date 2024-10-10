@@ -21,7 +21,7 @@ CryptoApp is a robust server-side application designed to monitor key metrics of
 Follow these simple steps to run CryptoApp on your local machine:
 
 1. **Clone the Repository**:  
-   `git clone <your-repository-url>`
+   `git clone <repository-url>`
 
 2. **Install Dependencies**:  
    Run `npm install` to install all necessary packages.
