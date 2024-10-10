@@ -11,8 +11,13 @@ connectDB();
 // Middleware
 app.use(express.json());
 
+// Base route to return "Hello"
+app.get('/', (req, res) => {
+  res.send('Hello');
+});
+
 // Routes
-app.use('/api', cryptoRoutes);
+app.use('/', cryptoRoutes);
 
 // Start the background job
 cryptoJob();

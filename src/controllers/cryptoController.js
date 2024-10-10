@@ -37,9 +37,9 @@ const getCryptoDeviation = async (req, res) => {
     const deviation = calculateStandardDeviation(prices);
 
     // Check if less than 1000 records were used
-    if (records.length < 1000) {
+    if (records.length < 100) {
       return res.status(400).json({ 
-        msg: 'Not enough data, so giving for lesser than 1000 records',
+        msg: 'Not enough data, so giving for lesser than 100 records',
         deviation 
       });
     }
