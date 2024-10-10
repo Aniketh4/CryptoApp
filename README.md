@@ -1,5 +1,7 @@
 # CryptoApp
 
+# Deployed here: https://crypto-app-theta-blond.vercel.app/
+
 ## Cryptocurrency Data Tracker
 
 CryptoApp is a server-side application built with Node.js and MongoDB that tracks cryptocurrency prices, market capitalization, and 24-hour changes for Bitcoin, Matic, and Ethereum. The application fetches data from the CoinGecko API every two hours and stores it in a MongoDB database.
@@ -20,8 +22,8 @@ To set up and run the application locally, follow these steps:
 
 ### 2. Run npm install (Install dependencies)
 
-### 3. Create a .env file and add PORT, MongoDB URL, Coin Gecko api_key
+### 3. Create a .env file and add PORT(PORT), MongoDB URL(MONGO_URI), Coin Gecko api_key(COINGECKO_API_KEY)
 
 ### 4. Start application with npm start
 
-### 5. Access the API endpoints at localhost://{port} (port given in env, default set to 3000)
+### 5. Access the API endpoints at localhost://{port}/api (port given in env, default set to 3000)
