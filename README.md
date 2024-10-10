@@ -12,7 +12,7 @@ CryptoApp is a robust server-side application designed to monitor key metrics of
   
 - **API Endpoints**:
   - **`/stats`**: Provides the latest data for any specified cryptocurrency.
-  - **`/deviation`**: Calculates and returns the standard deviation of the price over the last 1000 records, offering insights into price volatility.
+  - **`/deviation`**: Calculates and returns the standard deviation of the price over the last 100 records, offering insights into price volatility.
   
 - **MongoDB Integration**: Uses **Mongoose** for structured interactions with MongoDB, ensuring efficient data storage and retrieval.
 
