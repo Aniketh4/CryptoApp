@@ -9,7 +9,7 @@ CryptoApp is a server-side application built with Node.js and MongoDB that track
 - **Background Job**: Automatically fetches and stores cryptocurrency data at specified intervals.
 - **API Endpoints**:
   - **`/stats`**: Retrieve the latest data for a specified cryptocurrency.
-  - **`/deviation`**: Calculate and return the standard deviation of the price for the last 100 records.
+  - **`/deviation`**: Calculate and return the standard deviation of the price for the last 1000 records.
 - **MongoDB Integration**: Uses Mongoose to interact with a MongoDB database, providing structured data through schemas.
 
 ## Getting Started
